@@ -14,19 +14,17 @@
   justify-content: center;
 }
 .main {
-  border: solid 2px red;
   display: flex;
   width: 800px;
   height: 800px;
   margin: 5% auto;
 }
 .container {
-  border: solid 1px purple;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #f1f1f1;
+  margin: 20px;
 }
 
 .container > * {
@@ -65,11 +63,16 @@
   height: 100%;
 }
 .contenujob h2 {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 10px;
   margin-top: 5px;
 }
 .contenujob p {
   margin-left: 10px;
   margin-bottom: 5px;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
