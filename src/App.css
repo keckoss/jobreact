@@ -39,18 +39,43 @@
 
 .item1 {
   border: solid 10px red;
+  opacity: 50%;
+}
+.item1:hover {
+  border: solid 10px red;
+  opacity: 100%;
 }
 .item2 {
   border: solid 10px green;
+  opacity: 50%;
+}
+.item2:hover {
+  border: solid 10px green;
+  opacity: 100%;
 }
 .item3 {
   border: solid 10px yellow;
+  opacity: 50%;
+}
+.item3:hover {
+  border: solid 10px yellow;
+  opacity: 100%;
 }
 .item4 {
   border: solid 10px blue;
+  opacity: 50%;
+}
+.item4:hover {
+  border: solid 10px blue;
+  opacity: 100%;
 }
 .item5 {
   border: solid 10px salmon;
+  opacity: 50%;
+}
+.item5:hover {
+  border: solid 10px salmon;
+  opacity: 100%;
 }
 .footer {
   background-color: #dddddd;
